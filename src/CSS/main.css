@@ -63,8 +63,3 @@
 .links_item img:hover{
     transform: scale(1.2);
 }
-@media screen and (max-width: 650px) {
-    .links_caja {
-        grid-template-columns: repeat(1, minmax(200px, 1fr) );
-    }
-}

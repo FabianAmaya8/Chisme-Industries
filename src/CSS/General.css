@@ -1,4 +1,4 @@
-body, #root {
+body{
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -14,10 +14,29 @@ body, #root {
 header,footer{
     width: 100%;
 }
+#contenido{
+    width: 90%;
+}
 h1,h2,h3,h4,h5,h6,a{
     text-transform: capitalize;
     text-decoration: none;
 }
 h1,h2, p {
     text-align: center;
+}
+@media screen and (max-width: 480px) {
+    .nav_1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .nav_1 ul{
+        margin: 0;
+    }
+    .links_caja {
+        grid-template-columns: repeat(1, minmax(200px, 1fr) );
+    }
+    .publi{
+        grid-template-columns: 1fr;
+    }
 }

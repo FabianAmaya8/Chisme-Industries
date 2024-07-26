@@ -1,0 +1,20 @@
+.publi{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+    gap: 15px;
+}
+.publi_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#ff7e7e, #fff);
+    border-radius: 30px;
+    padding: 20px;
+}
+.publi_img img{
+    border-radius: 40%;
+}
+.publi_item p{
+    font-weight: bold;
+}
